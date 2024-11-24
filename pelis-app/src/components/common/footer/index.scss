@@ -6,13 +6,21 @@
 
     background-color: $dark-accent;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 
-    color: $primary;
+    color: $white;
     font-size: 1.2em;
     font-weight: 500;
 
     position: absolute;
     bottom: 0;
+    ul{
+        display: flex;
+        justify-content: space-evenly;
+        li{
+            list-style-type: none;
+            margin-right: 3vw;
+        }
+    }
 }
