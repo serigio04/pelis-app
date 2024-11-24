@@ -6,7 +6,7 @@ import {Header, Footer} from './components/common';
 const App = () => {
   return(
     <BrowserRouter>
-      <Header/>
+      <Header />
       <AppRoutes />
       <Footer />
     </BrowserRouter>
