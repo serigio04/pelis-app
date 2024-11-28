@@ -5,7 +5,7 @@ import {Header, Footer} from './components/common';
 
 const App = () => {
   return(
-    <BrowserRouter>
+    <BrowserRouter future={{ v7_relativeSplatPath: true }}>
       <Header />
       <AppRoutes />
       <Footer />
