@@ -7,7 +7,9 @@ const App = () => {
   return(
     <BrowserRouter future={{ v7_relativeSplatPath: true }}>
       <Header />
-      <AppRoutes />
+      <div className='main'>
+        <AppRoutes />
+      </div>
       <Footer />
     </BrowserRouter>
   )
